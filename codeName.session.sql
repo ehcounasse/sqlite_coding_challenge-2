@@ -9,3 +9,15 @@ ON oi.order_id = o.id
 GROUP BY c.id, customer_name
 ORDER BY total_spend DESC
 LIMIT 5;
+
+
+-- Task 2
+SELECT p.category,
+SUM(oi.quantity * oi.unit_price) AS revenue
+FROM order_items AS oi
+JOIN orders AS o 
+ON oi.order_id = o.id 
+JOIN products AS p 
+ON oi.product_id = p.id 
+GROUP BY p.category
+ORDER BY revenue DESC
