@@ -1,0 +1,6 @@
+- Jacob Foster is the customer with the highest total spend of $8723
+- Emma Young is the customer with the lowest total spend of $4410
+- Electronics is the category that brings in the most revenue of $25364
+- Stationery is the category that brings in the least revenue of $319
+- Farah Garcia makes above the average salary in the finance department 
+- Tampa has the most loyal customers and their level is gold
